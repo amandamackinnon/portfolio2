@@ -1,7 +1,6 @@
-
 * {
   box-sizing: border-box;
-  margin: 10px;
+  margin: 0; /* Change 10px to 0 */
   padding: 0;
   font-family: 'Inter', 'Helvetica', sans-serif;
 }
@@ -15,12 +14,9 @@ body {
   color: #ffffff;
   line-height: 1.6;
 }
-main {
-  min-height: 200vh;       
-}
 
 .hero {
-  height: 40vh;       
+  min-height: 50vh; 
   background: #111;
 }
 
@@ -30,6 +26,7 @@ main {
   top: 0;
   width: 100%;
   display: flex;
+  padding-right: 30px;
   justify-content: space-between;
   align-items: center;
   background-color: #111;
@@ -66,12 +63,24 @@ main {
 }
 
 section {
-  min-height: 100vh;
-  padding: 4rem 2rem;
+  min-height: auto; 
+  padding: 2rem 4rem;
   display: flex;
+  scroll-margin-top: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;   
+}
+
+.aboutMe{
+  padding-top:17rem;
+  padding-bottom: 10rem
+}
+
+
+
+main {
+  min-height: auto;       
 }
 
 h2 {
@@ -92,11 +101,10 @@ h3 {
   text-align: left;
 }
 
-.skills h2{
-   font-size: 2.5rem;
-  margin-bottom: 10rem;
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem; 
   color: #61dafb;
-  
 }
 
 .skills-grid {
@@ -161,6 +169,7 @@ img{
   height: 250px;
   width: 400px;
   border-radius: 20px;
+  margin-bottom: 5px;
 }
 
 .project-wrapper h3 {
@@ -195,13 +204,25 @@ img{
   transform: translateY(-2px);
 }
 
+.contact{
+  padding-top: 350px;
+  padding-bottom: 200px;
+
+}
+
 .contact-me{
   margin-bottom: 50px;
 }
 
-.social-icons i{
+.social-icons {
+  display: flex;       
+  gap: 2rem;           
+  align-items: center; 
+  margin-top: 20px;    
+}
+
+.social-icons i {
   font-size: 60px;
-  
 }
 
 .social-icons :hover {
@@ -221,6 +242,24 @@ footer {
 footer p {
   margin: 0;                  
   font-size: 1rem;
+}
+
+/* @media all and (max-width: 1400px){
+
+    
+} */
+
+@media all and (max-width: 800px){
+  .top-bar{
+    flex-direction: column;
+    gap: 7px;
+  }
+.project-content{
+  grid-template-columns: 1fr;
+}
+
+
+    
 }
 
 @media (max-width: 768px) {
