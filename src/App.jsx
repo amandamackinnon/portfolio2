@@ -1,15 +1,19 @@
 import React from 'react'
-import  About  from './sections/About.jsx'
-import  Contact  from './sections/Contact.jsx'
-import  Projects  from './sections/projects.jsx'
-import  Skills from './sections/Skills.jsx'
+import About from './sections/About.jsx'
+import Contact from './sections/Contact.jsx'
+import Projects from './sections/Projects.jsx'
+import Skills from './sections/Skills.jsx'
 import NavBar from './sections/NavBar.jsx'
 import './App.css'
 
 function App() {
   return (
     <div className="portfolio-container">
-      <section><NavBar/></section>
+      <header className="hero">
+      </header>
+
+      <NavBar />
+
       <main>
         <section id="about">
           <About />
@@ -29,12 +33,10 @@ function App() {
       </main>
 
       <footer>
-        <p>© 2026 | Built with React</p>
+        <p>© 2026 | Created by Amanda MacKinnon</p>
       </footer>
     </div>
   )
-
-  
 }
 
 export default App
