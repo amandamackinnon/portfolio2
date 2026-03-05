@@ -24,6 +24,9 @@ function Projects() {
               Powered by the CocktailDB API, users can enter up to three ingredients
               and instantly receive a list of matching cocktail recipes.
             </p>
+            <p>
+              In addition to the main functionality, the Catalogue also includes:
+            </p>
             <ul>
               <li>An ingredient encyclopedia</li>
               <li>A glassware guide</li>
@@ -35,6 +38,7 @@ function Projects() {
 
           <div className="project-image">
             <img src={Website} alt="Cocktail Catalogue Website" />
+            <a href="https://cocktail-catalogue.vercel.app/" target="_blank" className="project-btn">Go to Website</a>
           </div>
         </div>
       </section>
@@ -58,9 +62,12 @@ function Projects() {
               analyzed alongside forecast data to offer personalized self-care
               suggestions.
             </p>
+            <p>
+              Other features:
+            </p>
             <ul>
               <li>Sudden pressure change alerts (for headache awareness)</li>
-              <li>Extreme heat and cold weather warnings</li>
+              <li>Extreme heat and cold weather warnings, alerting the user to the impact this may have on their overall well-being</li>
             </ul>
             <h4>Tech Used:</h4>
             <p>React Native (with Expo), OpenWeather API, Google Places API</p>
@@ -68,6 +75,7 @@ function Projects() {
 
           <div className="project-image">
             <img src={App} alt="HeyDay App Screenshot" />
+            <a href="https://cocktail-catalogue.vercel.app/" target="_blank" className="project-btn">Visit GitHub Repo</a>
           </div>
         </div>
       </section>

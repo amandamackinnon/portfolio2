@@ -144,6 +144,19 @@ h3 {
   
 }
 
+.project-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr; 
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.project-image img {
+  width: 150%;
+  height: 200%;
+  border-radius: 12px;
+}
+
 img{ 
   height: 250px;
   width: 400px;
@@ -167,6 +180,20 @@ img{
   margin-bottom: 1rem;
 }
 
+.project-btn {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #0097a7;
+  transform: translateY(-2px);
+}
 
 .contact-me{
   margin-bottom: 50px;
