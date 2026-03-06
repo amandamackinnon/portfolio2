@@ -244,10 +244,13 @@ footer p {
   font-size: 1rem;
 }
 
-/* @media all and (max-width: 1400px){
+
+
+@media all and (max-width: 1400px){
 
     
-} */
+}    
+
 
 @media all and (max-width: 800px){
   .top-bar{
@@ -278,4 +281,35 @@ footer p {
   .skill-card i {
     font-size: 2.5rem;
   }
+}
+
+@media all and (max-width: 702px){
+.skills-grid{
+  display: flex;
+  flex-direction: column
+}
+
+
+section{
+  padding: 0;
+
+}
+.project-image img {
+  width: 100%;
+  height: 150%;
+    
+}
+
+ h3{
+    margin-top: 20px;
+  }
+
+}
+
+@media all and (max-width: 532px){
+  .project-btn{
+    padding: 2px;
+  }
+
+    
 }

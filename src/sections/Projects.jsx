@@ -75,7 +75,7 @@ function Projects() {
 
           <div className="project-image">
             <img src={App} alt="HeyDay App Screenshot" />
-            <a href="https://cocktail-catalogue.vercel.app/" target="_blank" className="project-btn">Visit GitHub Repo</a>
+            <a href="https://github.com/amandamackinnon/moodmap" target="_blank" className="project-btn">Visit GitHub Repo</a>
           </div>
         </div>
       </section>
