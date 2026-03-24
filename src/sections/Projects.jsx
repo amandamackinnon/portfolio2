@@ -47,10 +47,10 @@ function Projects() {
       <section className="project">
         <div className="project-content">
           <div className="project-text">
-            <h3>🌤 HeyDay – Weather Forecast + Self-Care</h3>
+            <h3>🌤 CareCast – Weather Forecast + Self-Care</h3>
             <p>
               Weather has a measurable impact on mood and overall well-being. I
-              built HeyDay to help users better understand and respond to that
+              built CareCast to help users better understand and respond to that
               connection.
             </p>
             <p>

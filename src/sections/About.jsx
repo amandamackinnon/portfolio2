@@ -6,11 +6,11 @@ function About() {
       <section className="aboutMe-section">
         <h2 className="about">About Me</h2>
         <p className="intro-text">
-          Hi, I'm<strong>Amanda.</strong>I bring ideas to life through code and design.</p>
+          Hi, I'm<strong> Amanda.</strong> I don't build to add noise; I build to craft solutions.</p>
         <p>
-          I am a Canadian-born junior developer, living in Sweden, with a truly global perspective. Having lived and worked in four different countries over +15 years, I’ve built a career on adaptability. From Hospitality to Finance and Logistics, I’ve navigated diverse professional landscapes and cultures, honing a unique ability to thrive in ever-changing environments.
-          My "lifelong learner" mindset extends beyond borders. Whether I’m engineering a new recipe, mastering a complex crochet pattern, or crafting a React component, I am driven by the curiosity to understand how things work.
-          For me, web development is the ultimate frontier, where the only limitation is your imagination.
+          I'm a Web & Mobile Developer based in Sweden. My 20-year career in mainly customer-facing and operational roles across four countries shaped one belief: the best solutions come from understanding people first.
+          I create with code the way I create with my hands: deliberately, methodically, until it works. A React component, a new recipe, a crochet pattern— each starts with an idea and ends with something functional. 
+          Currently, I'm building with the MERN stack and React Native. I'm drawn to projects that value clarity over chaos, and products that solve real problems for real people.
         </p>
       </section>
     </div>
