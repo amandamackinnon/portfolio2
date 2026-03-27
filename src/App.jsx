@@ -33,7 +33,7 @@ function App() {
       </main>
 
       <footer>
-        <p>© 2026 | Created by Amanda MacKinnon</p>
+        <p>2026 | Created by Amanda MacKinnon</p>
       </footer>
     </div>
   )

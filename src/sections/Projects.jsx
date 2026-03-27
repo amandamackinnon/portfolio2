@@ -76,6 +76,8 @@ function Projects() {
           <div className="project-image">
             <img src={App} alt="HeyDay App Screenshot" />
             <a href="https://github.com/amandamackinnon/moodmap" target="_blank" className="project-btn">Visit GitHub Repo</a>
+            <a href="https://play.google.com/store/apps/details?id=com.barcelonacodeschool.heyday" target="_blank" className="project-btn">Goggle Play Store</a>
+            <a href="https://apps.apple.com/us/app/carecast/id6760472628" target="_blank" className="project-btn">Apple App Store</a>
           </div>
         </div>
       </section>
