@@ -4,21 +4,20 @@ import App from "../assets/Images/App.png";
 
 function Projects() {
   return (
-    <div className="project-wrapper">
+    <section id= "projects" className="project-wrapper">
       <h2>My Projects</h2>
-
-      <section className="project">
-        <div className="project-content">
-          <div className="project-text">
-            <h3>🍸 The Cocktail Catalogue</h3>
-            <p>
-              What do you do when you want to make a cocktail but only have a few
-              ingredients and no recipe in mind?
-            </p>
-            <p>
-              This is a problem I personally ran into time and time again —
-              especially when hosting. These experiences inspired me to build The
-              Cocktail Catalogue.
+        <div className="project-item">
+          <div className= "project-content">
+            <div className="project-text">
+              <h3>🍸 The Cocktail Catalogue</h3>
+              <p>
+                What do you do when you want to make a cocktail but only have a few
+                ingredients and no recipe in mind?
+              </p>
+              <p>
+                This is a problem I personally ran into time and time again —
+                especially when hosting. These experiences inspired me to build The
+                Cocktail Catalogue.
             </p>
             <p>
               Powered by the CocktailDB API, users can enter up to three ingredients
@@ -38,15 +37,22 @@ function Projects() {
 
           <div className="project-image">
             <img src={Website} alt="Cocktail Catalogue Website" />
-            <a href="https://cocktail-catalogue.vercel.app/" target="_blank" className="project-btn">Go to Website</a>
-            <a href="https://github.com/amandamackinnon/Cocktail-Catalogue" target="_blank" className="project-btn btn-outline">Visit GitHub Repo</a>
+            <div className ="project-actions">
+              <div className ="top-row1">
+                <a href="https://cocktail-catalogue.vercel.app/" target="_blank" className="project-btn">Go to Website</a>
+                <div className ="bottom-row">
+                <a href="https://github.com/amandamackinnon/Cocktail-Catalogue" target="_blank" className="project-btn btn-outline">Visit GitHub Repo</a>
+                </div>  
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    
 
 
-      <section className="project">
-        <div className="project-content">
+        <div className="project-item">
+          <div className="project-content">
           <div className="project-text">
             <h3>🌤 CareCast – Weather Forecast + Self-Care</h3>
             <p>
@@ -86,9 +92,9 @@ function Projects() {
             </div>
             </div>
           </div>
+          </div>
         </div>
       </section>
-    </div>
   );
 }
 
