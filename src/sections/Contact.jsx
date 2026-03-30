@@ -13,7 +13,7 @@ function Contact() {
         <i className="devicon-linkedin-plain colored"></i>
       </a>
 
-      <a href="mailto:your-email@gmail.com">
+      <a href="mailto:amanda.d.mackinnon@gmail.com">
         <i className="devicon-google-plain colored"></i>
       </a>
 

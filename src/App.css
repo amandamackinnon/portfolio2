@@ -160,49 +160,96 @@ h3 {
   align-items: flex-start;
 }
 
-.project-image img {
-  width: 150%;
-  height: 200%;
-  border-radius: 12px;
+.project-image {
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-img{ 
-  height: 250px;
-  width: 400px;
-  border-radius: 20px;
-  margin-bottom: 5px;
+.project-image img {
+  width: 100%;       
+  height: auto;      
+  border-radius: 12px;
+  margin-bottom: 20px;
 }
 
 .project-wrapper h3 {
-  
   color: #61dafb;
 }
 
-.project-wrapper {
-  width: 100%;
-  max-width: 1000px;
-  margin-left: 0;      
-  margin-right: auto;
-}
 
 .project-wrapper ul {
   list-style: inside disc;
   margin-bottom: 1rem;
 }
 
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.top-row {
+  display: flex;
+  gap: 10px;         
+  width: 100%;
+}
+
+.top-row a {
+  flex: 1;           
+}
+
+.bottom-row {
+  width: 100%;
+
+}
+
+.bottom-row a {
+  display: flex;    
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
 .project-btn {
-  padding: 10px 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
   background-color: #00bcd4;
   color: white;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
   transition: all 0.3s ease;
+  
+}
+
+.top-row .project-btn {
+  flex: 1 1 calc(50% - 5px); 
+}
+
+.btn-outline {
+  flex: none !important; 
+  width: 100% !important;
+  background-color: transparent !important;
+  border: 2px solid #00bcd4;
+  color: #00bcd4 !important;
 }
 
 .project-btn:hover {
   background-color: #0097a7;
   transform: translateY(-2px);
+}
+
+.btn-outline:hover {
+  background-color: rgba(0, 188, 212, 0.15) !important;
+  border-color: #0097a7 !important;
+  color: #0097a7 !important;
 }
 
 .contact{

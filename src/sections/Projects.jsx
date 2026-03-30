@@ -39,6 +39,7 @@ function Projects() {
           <div className="project-image">
             <img src={Website} alt="Cocktail Catalogue Website" />
             <a href="https://cocktail-catalogue.vercel.app/" target="_blank" className="project-btn">Go to Website</a>
+            <a href="https://github.com/amandamackinnon/Cocktail-Catalogue" target="_blank" className="project-btn btn-outline">Visit GitHub Repo</a>
           </div>
         </div>
       </section>
@@ -75,9 +76,15 @@ function Projects() {
 
           <div className="project-image">
             <img src={App} alt="HeyDay App Screenshot" />
-            <a href="https://github.com/amandamackinnon/moodmap" target="_blank" className="project-btn">Visit GitHub Repo</a>
-            <a href="https://play.google.com/store/apps/details?id=com.barcelonacodeschool.heyday" target="_blank" className="project-btn">Goggle Play Store</a>
+            <div className="project-actions">
+              <div className="top-row">
+            <a href="https://play.google.com/store/apps/details?id=com.barcelonacodeschool.heyday" target="_blank" className="project-btn">Google Play Store</a>
             <a href="https://apps.apple.com/us/app/carecast/id6760472628" target="_blank" className="project-btn">Apple App Store</a>
+            </div>
+            <div className ="bottom-row">
+            <a href="https://github.com/amandamackinnon/moodmap" target="_blank" className="project-btn btn-outline">Visit GitHub Repo</a>
+            </div>
+            </div>
           </div>
         </div>
       </section>
