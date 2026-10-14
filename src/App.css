@@ -59,7 +59,12 @@ body {
 }
 
 .intro-text{
-    padding-bottom: 15px;
+    padding-bottom: 25px;
+}
+
+.outro-text{
+  padding-top: 25px;
+
 }
 
 section {
@@ -186,6 +191,7 @@ h3 {
 
 .project-item{
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .project-actions {

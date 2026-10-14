@@ -1,56 +1,47 @@
 import React from "react";
 import Website from "../assets/Images/website.png"; 
-import App from "../assets/Images/App.png";         
+import App from "../assets/Images/App.png";     
+import Yield2 from "../assets/Images/Yield2.png";     
 
 function Projects() {
   return (
     <section id= "projects" className="project-wrapper">
       <h2>My Projects</h2>
-        <div className="project-item">
+      <div className="project-item">
           <div className= "project-content">
             <div className="project-text">
-              <h3>🍸 The Cocktail Catalogue</h3>
+              <h3>🥕 Yield: Waste Less Cook Smarter</h3>
               <p>
-                What do you do when you want to make a cocktail but only have a few
-                ingredients and no recipe in mind?
-              </p>
-              <p>
-                This is a problem I personally ran into time and time again —
-                especially when hosting. These experiences inspired me to build The
-                Cocktail Catalogue.
+              Every year, tonnes of food end up in landfills, contributing to food insecurity and climate change. Yield is your personal kitchen assistant, designed to help you track groceries, eliminate food waste, discover delicious recipes, and have fun doing it!
             </p>
             <p>
-              Powered by the CocktailDB API, users can enter up to three ingredients
-              and instantly receive a list of matching cocktail recipes.
-            </p>
-            <p>
-              In addition to the main functionality, the Catalogue also includes:
+              Key features include:
             </p>
             <ul>
-              <li>An ingredient encyclopedia</li>
-              <li>A glassware guide</li>
-              <li>A techniques section covering foundational bartending skills</li>
+              <li>Your Virtual Fridge: Easily log your grocery items</li>
+              <li>Smart Expiration Alerts: Get notified when items are within 3 days of expiring</li>
+              <li>Recipe Suggestions: Tap any ingredient to discover recipes</li>
+              <li>Waste & Consumption Dashboard: Snapshot of your weekly food habits </li>
+              <li>Food Trivia & Facts: Food facts to test your knowledge with multiple-choice trivia</li>
             </ul>
             <h4>Tech Used:</h4>
-            <p>React, Node.js, Express, MongoDB, Axios, TheCocktailDB API</p>
+            <p>React, Node.js, Express, Spoonacular API, The Trivia API</p>
           </div>
 
           <div className="project-image">
-            <img src={Website} alt="Cocktail Catalogue Website" />
+            <img src={Yield2} alt="Yield App" />
             <div className ="project-actions">
               <div className ="top-row1">
-                <a href="https://cocktail-catalogue.vercel.app/" target="_blank" className="project-btn">Go to Website</a>
+                <a href="https://apps.apple.com/app/yield-waste-less-cook-smarter/id6806539251" target="_blank" className="project-btn">Apple App Store</a>
                 <div className ="bottom-row">
-                <a href="https://github.com/amandamackinnon/Cocktail-Catalogue" target="_blank" className="project-btn btn-outline">Visit GitHub Repo</a>
+                <a href="https://github.com/amandamackinnon/YieldMyCode" target="_blank" className="project-btn btn-outline">Visit GitHub Repo</a>
                 </div>  
               </div>
             </div>
           </div>
         </div>
       </div>
-    
-
-
+      
         <div className="project-item">
           <div className="project-content">
           <div className="project-text">
@@ -94,6 +85,50 @@ function Projects() {
           </div>
           </div>
         </div>
+
+
+        <div className="project-item">
+          <div className= "project-content">
+            <div className="project-text">
+              <h3>🍸 The Cocktail Catalogue</h3>
+              <p>
+                What do you do when you want to make a cocktail but only have a few
+                ingredients and no recipe in mind?
+              </p>
+              <p>
+                This is a problem I personally ran into time and time again —
+                especially when hosting. These experiences inspired me to build The
+                Cocktail Catalogue.
+            </p>
+            <p>
+              Powered by the CocktailDB API, users can enter up to three ingredients
+              and instantly receive a list of matching cocktail recipes.
+            </p>
+            <p>
+              In addition to the main functionality, the Catalogue also includes:
+            </p>
+            <ul>
+              <li>An ingredient encyclopedia</li>
+              <li>A glassware guide</li>
+              <li>A techniques section covering foundational bartending skills</li>
+            </ul>
+            <h4>Tech Used:</h4>
+            <p>React, Node.js, Express, MongoDB, Axios, TheCocktailDB API</p>
+          </div>
+
+          <div className="project-image">
+            <img src={Website} alt="Cocktail Catalogue Website" />
+            <div className ="project-actions">
+              <div className ="top-row1">
+                <a href="https://cocktail-catalogue.vercel.app/" target="_blank" className="project-btn">Go to Website</a>
+                <div className ="bottom-row">
+                <a href="https://github.com/amandamackinnon/Cocktail-Catalogue" target="_blank" className="project-btn btn-outline">Visit GitHub Repo</a>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       </section>
   );
 }
