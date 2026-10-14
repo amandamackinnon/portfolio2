@@ -18,7 +18,7 @@ function Projects() {
               Key features include:
             </p>
             <ul>
-              <li>Your Virtual Fridge: Easily log your grocery items</li>
+              <li>Your Virtual Fridge: Easily log your food items</li>
               <li>Smart Expiration Alerts: Get notified when items are within 3 days of expiring</li>
               <li>Recipe Suggestions: Tap any ingredient to discover recipes</li>
               <li>Waste & Consumption Dashboard: Snapshot of your weekly food habits </li>
